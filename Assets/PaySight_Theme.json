@@ -1,0 +1,182 @@
+{
+  "name": "PaySight Fintech Professional",
+  "dataColors": [
+    "#1D3557",
+    "#457B9D",
+    "#2A9D8F",
+    "#A8DADC",
+    "#8D99AE",
+    "#6C757D",
+    "#4361EE",
+    "#2B2D42"
+  ],
+  "background": "#F8F9FA",
+  "foreground": "#1D1D1D",
+  "tableAccent": "#2A9D8F",
+  "good": "#2A9D8F",
+  "neutral": "#8D99AE",
+  "bad": "#E63946",
+  "maximum": "#E63946",
+  "center": "#F1FAEE",
+  "minimum": "#2A9D8F",
+  "null": "#D3D3D3",
+  "textClasses": {
+    "callout": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1D3557"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1D3557"
+    },
+    "header": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1D3557"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#333333"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": true, "color": { "solid": { "color": "#E5E5E5" } }, "radius": 8 }
+        ],
+        "shadow": [
+          {
+            "show": true,
+            "position": "Outer",
+            "shadowColor": { "solid": { "color": "#000000" } },
+            "transparency": 92,
+            "size": 8,
+            "angle": 45,
+            "distance": 2
+          }
+        ],
+        "general": [
+          { "responsive": true }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1D3557" } },
+            "fontSize": 12,
+            "bold": true,
+            "fontFamily": "Segoe UI Semibold",
+            "background": { "solid": { "color": "#FFFFFF" } },
+            "alignment": "left"
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#1D3557" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#6C757D" } },
+            "fontSize": 11,
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#FCEBEB" } }, "transparency": 0 }
+        ],
+        "border": [
+          { "show": false }
+        ],
+        "shadow": [
+          { "show": false }
+        ]
+      }
+    },
+    "columnChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#457B9D" } } }
+        ],
+        "categoryAxis": [
+          {
+            "gridlineShow": false,
+            "fontColor": { "solid": { "color": "#333333" } },
+            "fontSize": 10
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineShow": true,
+            "gridlineColor": { "solid": { "color": "#EDEDED" } },
+            "fontColor": { "solid": { "color": "#333333" } },
+            "fontSize": 10
+          }
+        ],
+        "labels": [
+          { "show": true, "color": { "solid": { "color": "#1D1D1D" } }, "fontSize": 10 }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#1D3557" } } }
+        ],
+        "categoryAxis": [
+          { "gridlineShow": false, "fontColor": { "solid": { "color": "#333333" } } }
+        ],
+        "valueAxis": [
+          { "gridlineShow": true, "gridlineColor": { "solid": { "color": "#EDEDED" } } }
+        ]
+      }
+    },
+    "pieChart": {
+      "*": {
+        "dataPoint": [
+          { "defaultColor": { "solid": { "color": "#457B9D" } } }
+        ],
+        "legend": [
+          { "fontColor": { "solid": { "color": "#333333" } }, "fontSize": 10 }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#FFFFFF" } } }
+        ],
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#1D3557" } },
+            "background": { "solid": { "color": "#F1F3F5" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#F8F9FA" } }, "transparency": 0 }
+        ]
+      }
+    }
+  }
+}
